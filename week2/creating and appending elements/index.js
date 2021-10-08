@@ -19,7 +19,7 @@ var num3 = document.createElement('li');
 num3.textContent = 'Number Three';
 orderedList.append(num3);
 
-document.body.append(orderedList)
+document.body.append(orderedList);
 
 
 
