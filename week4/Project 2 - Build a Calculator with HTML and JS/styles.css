@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(208, 218, 221); 
+}
+
+
+div {
+border: solid;
+font-weight: bold;
+background-color: lightblue;  
+display: inline-block;
+width: 330px;
+height: 275px;
+padding-left: 32px;
+padding-top: 30px;  
+margin-top: 150px;
+margin-left: 100px;
+}
+
+
+.myCal, .myCal2, 
+.myCal3, .myCal4 {
+font-size: 24px;
+}
+
+input {
+    background-color: white;
+   font-size: 20px;
+   color:darkblue
+}
+
+#result1, #result2,
+#result3, #result4 {
+color: red;
+
+}
