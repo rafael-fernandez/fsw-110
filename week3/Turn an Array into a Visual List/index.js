@@ -1,6 +1,13 @@
 /* 2) Create an H1 tag with the text “Hello World”, and append it to the DOM (test and make sure it is showing up on the website). */
 
 /*3) Create a for-loop, repeat this process 10 times so that 10 H1’s with the text “Hello World” show up when the website is visited. */
+
+
+
+
+
+
+
 for (let i = 0; i < 10; i++) {
     var repeat = document.createElement("h1");
     repeat.textContent = "Hello World!";

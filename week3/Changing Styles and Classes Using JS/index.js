@@ -1,5 +1,10 @@
 /* 2) In the JS file, create a list of 5 H2 elements on the DOM using a for loop (Hint: this was covered in the previous assignment). Give them whatever text you would like. */
 
+let jsdom = require("jsdom").JSDOM,
+
+uri = ""
+
+
 for (let i = 0; i < 5; i++) {
     var hiFive = document.createElement("h2");
     hiFive.textContent = "I GOT 5 ON IT!";
@@ -10,7 +15,7 @@ for (let i = 0; i < 5; i++) {
     hiFive.style.fontWeight = 'lighter'      //Font-weight: lighter
     hiFive.style.fontFamily = 'sans serif'   // Font-family: sans-serif
     hiFive.style.color = 'cornflowerblue'    // Color: cornflowerblue
-   
+
     /* 5) Back in your JS, add that class to the elements being created using classList. */
     hiFive.classList.toggle('border')
 
