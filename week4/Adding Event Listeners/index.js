@@ -34,10 +34,12 @@ document.getElementById("squareOne").addEventListener("dblclick", function () {
 
 /* 7) Purple when the mouse scroll is used somewhere in the window (not just over the square). *Try adding more content to your page with JS if you can not scroll  */
 
-document.getElementById("squareOne").addEventListener("mousewheel", function () {
-    document.getElementById("squareOne").style.backgroundColor = "purple";
-}); 
-
+                const bodyElement = document.querySelector("div") 
+                function scroll() {
+                bodyElement.style.backgroundColor = "purple"
+                }
+                window.addEventListener("mousewheel", scroll)
+                
 
 /* 8) You should also be able to press the first letter of the colors (typing "r" on the keyboard for "red", for example) and have the box change to that color */
 document.addEventListener('keydown', function (event) {
