@@ -32,11 +32,11 @@ document.getElementById("squareOne").addEventListener("dblclick", function () {
     document.getElementById("squareOne").style.backgroundColor = "red";
 });
 
-/* 7) Purple when the mouse scroll is used somewhere in the window (not just over the square). *Try adding more content to your page with JS if you can not scroll */
+/* 7) Purple when the mouse scroll is used somewhere in the window (not just over the square). *Try adding more content to your page with JS if you can not scroll  */
+
 document.getElementById("squareOne").addEventListener("mousewheel", function () {
     document.getElementById("squareOne").style.backgroundColor = "purple";
-});
-
+}); 
 
 
 /* 8) You should also be able to press the first letter of the colors (typing "r" on the keyboard for "red", for example) and have the box change to that color */
@@ -47,11 +47,33 @@ document.addEventListener('keydown', function (event) {
 
 });
 
+document.addEventListener('keydown', function (event) {
+    if (event.key === 'b') {
+        document.getElementById("squareOne").style.backgroundColor = "blue"
+    }
 
+});
 
+document.addEventListener('keydown', function (event) {
+    if (event.key === 'g') {
+        document.getElementById("squareOne").style.backgroundColor = "green"
+    }
 
+});
 
+document.addEventListener('keydown', function (event) {
+    if (event.key === 'p') {
+        document.getElementById("squareOne").style.backgroundColor = "purple"
+    }
 
+});
+
+document.addEventListener('keydown', function (event) {
+    if (event.key === 'y') {
+        document.getElementById("squareOne").style.backgroundColor = "yellow"
+    }
+
+});
 
 
 
