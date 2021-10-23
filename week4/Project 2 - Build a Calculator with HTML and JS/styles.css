@@ -1,64 +1,156 @@
-.container {
-width:650px;
-height:150px;
-background-color: lightblue;
-margin: 0 auto;
-font-size: 40px;
-margin-top: 200px;
-padding-top: 40PX;
-font-weight: bold;
-}
-
-#number  {
-font-size: 30px;
-width: 250px;
-margin-left: 65px;
-padding-left: 2px;
-margin-top: 32px;
-text-align: left;
-  }
-
-#numbers {
-font-size: 30px;
-width: 250px;
-margin-left: 25px;
-padding-left: 2px;
-margin-top: 32px;
-text-align: left;
-}
-
-input {
-font-size: 40px;
-margin-top: 75px;
-color: lightblue;
-padding-right: 20px;
-font-weight: bold;
-color: orange;
-}
-
-.output {
-height: 200px;
-width: 650px;
-margin: 0 auto;
+div {
+  background-color: blue;
+  width: 35%;
+  height: 100px;
+  border: none;
 text-align: center;
-background-color: lightblue;
+margin-left:500px;
+ padding-top: 5px;
+ 
 }
 
-.final {
-width:650px;
-height:100px;
-background-color: lightblue;
-margin: 0 auto;
-font-size: 40px;
-padding-bottom: 82px;
-color: black;
-text-align: left;
-background-color: lightblue;
+#number {
+margin:20px;
+padding-right: 50px;
+padding: 9px;
+height: 20px;
+width: 25%;
+  font-size: 20px;
+}
+#numbers {
+margin:20px;
+padding-right: 50px;
+padding: 9px;
+height: 20px;
+width: 25%;
+  font-size: 20px;
 }
 
-span {
-margin-left: 75px;
-color: orange;
+#numberLess {
+margin:20px;
+padding-right: 50px;
+padding: 9px;
+height: 20px;
+width: 25%;
+font-size: 20px;
+}
+#numbersLess {
+margin:20px;
+padding-right: 50px;
+padding: 9px;
+height: 20px;
+width: 25%;
+font-size: 20px;
+}
+
+#numberTime {
+margin:20px;
+padding-right: 50px;
+padding: 9px;
+height: 20px;
+width: 25%;
+font-size: 20px;
+}
+#numbersTime {
+margin:20px;
+padding-right: 50px;
+padding: 9px;
+height: 20px;
+width: 25%;
+font-size: 20px;
+}
+
+/*
+#numberDiv {
+margin:20px;
+padding-right: 50px;
+padding: 9px;
+height: 20px;
+width: 25%;
+font-size: 20px;
+}
+
+#numbersDiv {
+margin:20px;
+padding-right: 50px;
+padding: 9px;
+height: 20px;
+width: 25%;
+font-size: 20px;
+}
+*/
+
+.two {
+  background-color: orange;
+}
+
+.three {
+  background-color: green;
+  
+}
+
+.four  {
+  background-color: whitesmoke;
+  
+}
+
+
+
+#opsbtn {
+  margin-right: 80px;
+  margin-top: 20px;
+float: right;
+ padding: 5px;
+  font-size: 24px;
+  text-align: center;
+
+}
+#opsbtn2 {
+margin-right: 50px;
+margin-top: 20px;
+float: right;
+padding: 5px;
+font-size: 24px;
+text-align: center;
+}
+
+
+
+#opsbtn3 {
+margin-right: 40px;
+margin-top: 20px;
+float: right;
+padding: 5px;
+font-size: 24px;
+text-align: center;
+}
+
+/*
+#opsbtn4 {
+margin-right: 100px;
+margin-top: 20px;
+float: right;
+padding: 5px;
+font-size: 24px;
+text-align: center;
+}
+*/
+
+#result  {
+margin-left: 5px;
+font-size: 30px;
 font-weight: bold;
 background-color: white;
+  color: black;
 }
+
+label {
+margin-left: 500px;
+font-size: 30px;
+font-weight: bold;
+background-color: white;
+  color: black;
+
+}
+
+

@@ -11,32 +11,37 @@
    
 
 
-<div class="container">
-
-        First Number:      <input type="number" value="" id="number">
-        Second Number: <input type="number" value="" id="numbers">
-
-</div>
-
-
-
-    <div class="output">
-        <input type="submit" value="Add" onclick="return add()">
-        <input type="submit" value="Subtract" onclick="return subtract()">
-        <input type="submit" value="Multiply" onclick="return multiply()">
-        <input type="submit" value="Divide" onclick="return divide()">
-
+    <div class="one">
+           <input type="number" value="" id="number">
+            <input type="number" value="" id="numbers">
+            <input id="opsbtn" type="submit" value="Addition" onclick="return add()">
     </div>
 
 
 
-    <div class="final">
-        <b> The Result is:</b><br><br>
-        <span id="result"> </span>
-
+    <div class="two">
+        <input type="number" value="" id="numberLess">
+        <input type="number" value="" id="numbersLess">
+        <input id="opsbtn2" type="submit" value="Subtraction" onclick="return subtract()">
+    </div>
+ 
+ 
+    <div class="three">
+        <input type="number" value="" id="numberTime">
+        <input type="number" value="" id="numbersTime">
+        <input id="opsbtn3" type="submit" value="Multiplication" onclick="return multiply()">
     </div>
 
  
+        <label type="text">Answer</label>
+        <span  id="result"></span>
+
+
+        <!--    <div class="four">
+        <input type="number" value="" id="numberDiv">
+        <input type="number" value="" id="numbersDiv">
+        <input id="opsbtn4" type="submit" value="Divide" onclick="return divide()">
+    </div>  -->
 
     <script src="index.js"></script>
 </body>
