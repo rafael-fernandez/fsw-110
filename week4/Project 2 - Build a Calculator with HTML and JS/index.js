@@ -16,6 +16,8 @@ function multiply() {
     document.getElementById("result").innerHTML = (a * b);
 }
 
+
+    //Removed for the submission
 /*
 function divide() {
     var a = document.getElementById('numberDiv').value;
