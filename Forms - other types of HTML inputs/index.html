@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="styless.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+<body>
+     
+            <div class="container-form">
+                    <div>
+                        <h1>Request for more information</h1>
+                        <h3>* We received your application request, and we need the following information. Please note, all fields are required. Once the application is completed and agent will reach out to you within 24 to 48 business hours. </h3>
+                    </div>
+       
+
+                    <form  action="results.html" method="GET" >
+                      
+
+                    <div>
+                        <label for ="Member-ID#" >Member ID</label>
+                        <input class="member-field" type="number" name="Member-ID#" id="member" value="Member-ID#"  placeholder="# numbers only" required>
+                    </div> 
+
+                    <div>
+                        <label for="First-Name">First Name</label>
+                        <input type="text" name="First-name" placeholder="first name" required>
+                    </div>
+
+                    <div>
+                         <label for="Last-Name">Last Name:</label>
+                         <input type="text" name="Last-name" placeholder="last name" required>
+
+                    </div>
+                
+                              
+                    <div class="birth">
+                        <label for="birth_date">Date of Birth</label>
+                        <input type="text" id="birth_date" name="Birth Date"  placeholder="mm/dd/yyyy" onkeyup="calculate_age()">
+                        
+                        <label class="calculated_age" >Age</label> 
+                        <label type="number" for="calcualted_age" name="Age" value="Age" id="calculated_age"></label> 
+                    </div>
+
+
+                         <span class="gen">Gender:</span> 
+                        
+                    <div>
+                         <label for="male"> Male </label>
+                         <input class="gender1" type="radio" name="Gender"  value="Male" id="male" required>
+                    </div>
+
+                     <div>
+                         <label for="female">Female </label>
+                        <input class="gender1"  type="radio" name="Gender"  value="Female" id="female" required>
+                    </div>
+
+                    <div >  
+                         <label for="I-rather-not-say">I rather not say</label>
+                         <input class="gender1" type="radio" name="Gender"  value="I-rather-not-say" id="I-rather-not-say" required>
+                                        </div>
+
+
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" name="Email"  id="email"    placeholder="johndoe@sample.com" required>
+                    </div>
+
+                    <div>
+                        <label for="phone">Phone Number:</label>
+                        <input type="number" name="Phone-number"  id="phone"  placeholder="numbers only" required >
+                    </div>
+
+                    <div>
+                        Is the phone number provided a:
+                        <select name="Type" id="type">
+                        <option value="blank"></option>   
+                        <option  value="Home Phone">Home Phone</option>
+                        <option value="Mobile Phone">Mobile Phone</option>
+                        </select>
+                    </div>
+
+                    <h4>Are you a United States Citizen?</h4>
+                    
+                    <div>
+                        <label for="citizen">Yes</label>
+                        <input type="radio" name="U.S. Citizen" value="Yes" required>
+                        <label for="citizen">No</label>
+                        <input type="radio" name="U.S. Citizen" value="No" required>
+                    </div>
+
+                   
+                    <h4>Once we review this information, you will recieve a call from an agent.</h4>
+                    <h5>Please choose the best time or times of your avaialability:</h5> 
+                    <div>
+                        <label for="morning">Morning 8am - 11am</label>
+                        <input type="checkbox" name="Time"  id="morning" value="Morning" >
+                    </div>
+
+                    <div>
+                        <label for="afternoon">Afternoon 12pm - 6pm</label>
+                        <input type="checkbox" name="Time"  id="afternoon"  value="Afternoon" >
+                    </div>
+
+                    <div class="evening">
+                        <label for="evening">Evening 7pm - 9pm</label>
+                        <input type="checkbox" name="Time"  id="evening"  value="Evening">
+                    </div>
+
+              
+                    <div class="timezone">
+                            What timezone are you in? 
+                    
+                        <select name="TimeZone" id="timeZone" >
+                        <option value="blank"></option>
+                        <option value="Eastern">Eastern</option>
+                        <option value="Mountain">Mountain</option>
+                        <option value="Pacific">Pacific</option>
+                        </select>
+
+                        </div>
+
+                        <p>It is important to review this form before submitting to avoid any delays. By submitting this form, you acknowledge you are over the legal age in your state.
+                        </p>
+
+                    <div>
+                        <button  class="btns" type="reset">clear</button>
+                        <button class="btns" type="submit">Submit Request</button>
+                    </div>
+           
+                </div>
+            </form>
+           
+        </div>
+
+                            <script src="index.js"></script>
+   </body>
+</html>

@@ -1,0 +1,155 @@
+
+* 
+{
+font-family: 'Libre Baskerville', serif;
+background-color: white;
+
+}
+
+header  
+{
+margin-top: 120px;
+color: blue;
+}
+
+h1 
+{
+text-align: center;
+font-size: 40px;
+}
+
+h3
+{
+text-align: center;
+font-size: 18px;
+margin-bottom: 26px;
+}
+
+.container-form
+{
+background-color: lightgray;
+margin: auto;
+width: 60%;
+text-align: center;
+justify-content: center;
+font-size: 20px;
+padding: 30px;
+border: 1px solid blue;
+}
+
+.birth 
+{
+    margin-left: 130px;
+    margin-bottom: 25px;
+  
+}
+
+
+#calculated_age 
+{
+margin-right: 100px;
+border:none;
+}
+
+div
+{
+padding: 20px; 
+font-size: 24px;
+padding-top: 40px;
+}
+
+
+
+input 
+{
+background-color: white;
+color: black;
+padding: 5px; 
+font-size: 20px;
+}
+
+input[type=radio] 
+{
+border: 0px;
+width: 10%;
+height: 1em;
+}
+
+.gen
+{
+margin-right: 300px;
+font-size: 24px;
+display: block;
+}
+
+
+#male[type=radio]
+{
+margin-left: 90px;
+}
+
+#female 
+{
+margin-left: 60px;
+}
+
+#I-rather-not-say
+{
+margin-right: 40px;  
+}
+
+input[type="email"]
+{
+width: 20em;
+}
+
+select
+{
+background-color: white;
+width: 180px;
+height: 40px;
+font-size: 20px;
+margin-bottom: 40px;
+}
+
+.btns
+{
+border-radius: 30%;
+padding: 20px;
+margin-right: 100px;
+font-size: 20px;
+background-color: gainsboro;
+padding-top: 20px;
+margin-bottom: 40px;
+}
+
+input[type=checkbox] {
+border: 0px;
+width: 100px;
+height: 1em;
+}
+
+.timezone
+{
+    padding-top: 40px;
+}
+
+#morning[type=checkbox]
+{
+margin-left: 35px;
+}
+
+#evening[type=checkbox]
+{
+margin-left: 50px;
+}
+
+.btns:hover 
+{
+color: lightsalmon;
+background-color: midnightblue;
+}
+
+
+
+

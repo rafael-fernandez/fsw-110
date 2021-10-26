@@ -1,0 +1,60 @@
+
+/* result page */
+
+* {
+    background-color: rgb(240, 240, 240);
+}
+
+.container-res{
+
+  width: 60%;
+  
+}
+
+.resimg{
+float: left;
+height: 200px;
+margin-left: 390px;
+padding-bottom: 700px;
+background-color: rgb(240, 240, 240);
+
+
+}
+
+.says {
+     margin-left: 860px;
+    padding-top: 50px;
+background-color: rgb(240, 240, 240);
+
+    
+}
+ #results {
+margin-left: 650px;
+font-size: 24px;
+display: block;
+font-size: 30px;
+background-color: rgb(240, 240, 240);
+
+   
+}
+
+.resbtn {
+    margin-left: 360px;
+ padding-left: 70px;
+ padding-right: 70px;
+   background-color: #006ee6;
+    border-radius: 10px;
+    font-size: 30px;
+    text-decoration: none;
+       
+}
+
+#backToForm {
+    text-decoration: none;
+     border-radius: 5px;
+     background-color: #006ee6;
+       color: white;
+       
+      
+}
+
