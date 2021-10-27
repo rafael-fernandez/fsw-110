@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modifying an Element’s Value </title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Modifying an Element’s Value </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
 
-    <div class="contact-box">
+            <div class="contact-box">
 
-        <form>
-            <input required  type="text" class="input-field" placeholder="Your Name" > 
-            <input required  type="email" class="input-field" placeholder="sample@companyname.com" required>
-            <input type="text" class="input-field" placeholder="Subject">
+     
+                <form name= "details">
+                        
+                    <div class="box1">
+                     
+                                <input id="fName" type="text" name="firstname" placeholder="FIRST NAME">
+                                <input id="lName" type="text" name="lastname" placeholder="LAST NAME">
 
-            <textarea text="text" class="input-field textarea-field" placeholder="You message"></textarea>
+                                <input id="email" type="e-mail" name="email" placeholder="E-MAIL">
 
+                                <textarea id="boxM" text="text" class="input-field" name="message" placeholder="Your message"></textarea>
+                            
+                                <button class="btn2" type="reset" value="clear">Reset</button>
+                                <button class="subbtn" onclick="getdetails();">Submit</button>
+                    
+                    </div>
+                </form>
+          </div>
 
-            <button class="btn2" type="reset" value="clear">Reset</button>
-            <input class="btn" type="submit" value="Send" onclick="alert('Thank you for submitting your form')">
-            
-
-        </form>
-
-
-    </div>
-
-
-    <script src="index.js"></script>
-</body>
+        <script src="index.js"></script>
+    </body>
 </html>
