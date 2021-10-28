@@ -1,155 +1,156 @@
 
-* 
+body 
 {
-font-family: 'Libre Baskerville', serif;
-background-color: white;
-
+    background-color: #efefef;
+    font-family: sans-serif; 
+   
 }
 
-header  
-{
-margin-top: 120px;
-color: blue;
-}
 
-h1 
-{
-text-align: center;
-font-size: 40px;
-}
 
-h3
+.contact-box
 {
-text-align: center;
-font-size: 18px;
-margin-bottom: 26px;
-}
-
-.container-form
-{
-background-color: lightgray;
-margin: auto;
+margin: 0 auto;
+display: flex;
 width: 60%;
+height: 100%;
+font-size: 24px;
+
+background-color:lightblue;
+}
+
+form 
+{
+margin: 35px;
+}
+
+#fName
+{
+height: 40px;
+border-radius: 10px;
+font-size: 20px;
+
+}
+
+
+#lName
+{
+height: 40px;
+border-radius: 10px;
+font-size: 20px;
+}
+
+#date
+{
+height: 40px;
+border-radius: 10px;
+font-size: 20px;
+}
+
+#age
+{
+height: 40px;
+border-radius: 10px;
+font-size: 20px;
+
+}
+
+
+#email
+{
+height: 40px;
+border-radius: 10px;
+font-size: 20px;
+margin-top: 20px;
+}
+
+.how {
+margin-top: 20px;
 text-align: center;
-justify-content: center;
+
+}
+
+#internet
+{
+margin-top: 20px;
+}
+
+#socialMedia
+{
+  margin-top: 20px; 
+}
+
+input[type=radio]
+{
+   width: 25px; 
+height: 20px;
+border-radius: 10px;
 font-size: 20px;
-padding: 30px;
-border: 1px solid blue;
+margin-top: 20px;
+
 }
 
-.birth 
+.recom 
 {
-    margin-left: 130px;
-    margin-bottom: 25px;
-  
-}
-
-
-#calculated_age 
-{
-margin-right: 100px;
-border:none;
-}
-
-div
-{
-padding: 20px; 
-font-size: 24px;
-padding-top: 40px;
+margin-top: 20px;
+text-align: center;
 }
 
 
-
-input 
+.gender
 {
-background-color: white;
-color: black;
-padding: 5px; 
-font-size: 20px;
-}
+margin-top: 20px;
+text-align: center;
 
-input[type=radio] 
-{
-border: 0px;
-width: 10%;
-height: 1em;
-}
-
-.gen
-{
-margin-right: 300px;
-font-size: 24px;
-display: block;
-}
-
-
-#male[type=radio]
-{
-margin-left: 90px;
-}
-
-#female 
-{
-margin-left: 60px;
-}
-
-#I-rather-not-say
-{
-margin-right: 40px;  
-}
-
-input[type="email"]
-{
-width: 20em;
 }
 
 select
 {
-background-color: white;
-width: 180px;
 height: 40px;
+border-radius: 10px;
 font-size: 20px;
-margin-bottom: 40px;
+margin-top: 20px;
 }
 
-.btns
+
+.goodTime
 {
-border-radius: 30%;
-padding: 20px;
-margin-right: 100px;
-font-size: 20px;
-background-color: gainsboro;
-padding-top: 20px;
-margin-bottom: 40px;
+margin-bottom: 50px;
+text-align: center;
 }
 
-input[type=checkbox] {
-border: 0px;
-width: 100px;
-height: 1em;
-}
-
-.timezone
+input[type=checkbox]
 {
-    padding-top: 40px;
+margin-left: 10px;
+height: 25px;
+width: 15px;
+margin-bottom: 50px;
 }
-
-#morning[type=checkbox]
+#subbtn 
 {
-margin-left: 35px;
+border-radius: 10px;
+color: white;
+margin-top: 15px;
+padding: 10px;
+background-color: #47c35a;
+font-size: 30px;
+border: none;
+cursor: pointer;
+width: 250px;
+margin-right: 250px;
 }
 
-#evening[type=checkbox]
+.btn2 
 {
-margin-left: 50px;
+border-radius: 10px;
+color: white;
+margin-top: 15px;
+padding: 10px;
+background-color: #47c35a;
+font-size: 30px;
+margin-left: 32px;
+border: none;
+cursor: pointer;
+width: 250px;
+margin-left: 350px;
 }
-
-.btns:hover 
-{
-color: lightsalmon;
-background-color: midnightblue;
-}
-
-
-
-
