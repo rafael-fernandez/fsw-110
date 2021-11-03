@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>preventDefault()</title>
+</head>
+<body>
+    <div>
+        <form id="submit-me">
+        <label for="name">First Name</label>
+            <input id="firstName" placeholder="First Name" />
+            
+             <label for="age">Age</label>
+            <input id="age" type="number" placeholder="Enter your age"/>
+            
+               <label for="date">Date</label>
+            <input id="date" type="date"/>
+                       
+             <label for="radio">Yes</label>
+            <input id="radio" type="radio"/>
+
+              <label for="radio">No</label>
+            <input id="radio2" type="radio"/>
+            
+            <label for="checkbox">click box</label>
+            <input type="checkbox" id="myCheckbox" />
+            
+            <button id="formSubmit" >Click Me</button>
+            
+            <!-- the button knows that it belongs to this form 
+            because it's nested in it. 
+            A single button in a form will defualt to a submit 
+            button and will trigger a submit event -->
+        </form>
+    </div>
+ 
+
+    <script src="app.js"></script>
+</body>
+</html>
