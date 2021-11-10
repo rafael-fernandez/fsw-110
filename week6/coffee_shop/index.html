@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+       
+
+                                                               
+                            <nav>
+                                <a href="#">Home</a> 
+                                <a href="#">About</a> 
+                                <a href="#">Contact</a>                                
+                            </nav>
+                                    
+                           
+                                        <h1 class="bannerH1"  >Online Coffee Shop</h1> 
+                                        <img class="banner" src="./jonas-jacobsson-1iTKoFJvJ6E-unsplash.jpg" alt="">    
+                                        
+                                        <div>
+                                        <h1 class="menuItems" > Menu Items</h1>
+                                        </div>
+
+                        <form id= "form1">
+                            
+                         
+                            <div class="Croissant">
+                                <img  class="imgAll" src="./croissant.jpg" alt="">
+
+                                <label >Croissant</label>
+
+                                <label id="breadPrice"> 3.29</label>
+                                <input class="Croissant" type="number" value="" id="breadQty"  placeholder="Enter Qty"> 
+                            </div>
+                            <div class="bagel">
+                                <img class="imgAll" src="./bagel.jpg" alt="">
+
+                                <label>Bagel</label>
+
+                                <label id="bagelPrice"> 5.29</label>
+                                <input class="Croissant" type="number" value="" id="bagelQty"  placeholder="Enter Qty"> 
+                            </div>
+                                <div class="Cake">
+                                <img class="imgAll" src="./cake.jpg"alt="">
+
+                                <label >Cake</label>
+
+                                <label id="cakePrice"> 4.29</label>
+                                <input class="Croissant" type="number" value="" id="cakeQty"  placeholder="Enter Qty"> 
+                                 <button type = "submit">Calculate</button>     
+
+                            </div>
+                            
+                        </form>
+                            <div id = "title" style = 'font-size: 50px;'>Items Purchased
+                                <div id = "bread" style = 'font-size: 40px;'></div>
+                                <div id = "bagel" style = 'font-size: 40px;'></div>
+                                <div id = "cake" style = 'font-size: 40px;'></div>
+                                <div id = "grandTotal"></div>
+                             </div>
+                        
+
+                    <footer>
+                       
+                            <div>
+                                <ul>
+                                    <span>Contact us at:</span>
+                                    <li><a href="#" >contactus@eponlinecoffee.com</a></li>
+
+                                    <span>Company Website</span>
+                                    <li><a href="#" >www.eponlinecoffee.com</a></li>
+
+                                        <span>We are located at:</span>
+                                    <li><a href="#" >1234 Disney World Lane, Orlando Fl 38474</a></li>
+                                </ul>
+                                        
+                            </div>
+                            <div class="footer-email-form">
+                                <h2 class="join">Join our newsletter</h2>
+                                <input type="email" placeholder="Enter your email address" class="footer-email">
+                                <input class="footer-email-form" type="Submit" value="Sign Up" class="footer-email-button">
+                                
+                            </div>                                
+                    </footer>
+              
+        </div>
+    <script src="./index.js"></script>
+</body>
+</html>
