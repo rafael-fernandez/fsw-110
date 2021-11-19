@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    
+<div class="calculator">
+   <div class="one">
+            <input type="number" value="" id="number">
+            <input type="number" value="" id="numbers">
+            <input id="opsbtn" type="submit" value="Addition" onclick="return add()">
+
+   </div>
+
+    <div class="two">
+        <input type="number" value="" id="numberLess">
+        <input type="number" value="" id="numbersLess">
+        <input id="opsbtn2" type="submit" value="Subtraction" onclick="return subtract()">
+    </div>
+ 
+ 
+    <div class="three">
+        <input type="number" value="" id="numberTime">
+        <input type="number" value="" id="numbersTime">
+        <input id="opsbtn3" type="submit" value="Multiplication" onclick="return multiply()">
+
+    </div>
+    
+  
+
+        <!--    <div class="four">
+        <input type="number" value="" id="numberDiv">
+        <input type="number" value="" id="numbersDiv">
+        <input id="opsbtn4" type="submit" value="Divide" onclick="return divide()">
+    </div>  -->
+
+      <div class="result">
+            <label type="text">Answer</label>
+             <span  id="result"></span>
+        </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<script src="./index.js" ></script>
+
+</body>
+</html>
